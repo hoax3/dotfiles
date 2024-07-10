@@ -10,10 +10,14 @@ return {
     local telescope = require("telescope")
     telescope.load_extension("fzf")
     local keymap = vim.keymap
-
+    telescope.setup({
+      defaults = {
+        file_ignore_patterns = { "__pycache__", "__init__" }
+      }
+    })
     local builtin = require('telescope.builtin')
     keymap.set('n', "<leader><Space>", builtin.find_files, { desc = "Find Files" })
-    keymap.set('n', '<leader>ff', builtin.find_files, { desc = "Find files"})
+    keymap.set('n', '<leader>ff', builtin.find_files, { desc = "Find files" })
     keymap.set('n', '<leader>fr', builtin.oldfiles, { desc = "Recent files" })
     keymap.set('n', '<leader>fc', builtin.command_history, { desc = "Recent Commands" })
     keymap.set('n', '<leader>,', builtin.buffers, { desc = 'Current buffers' })

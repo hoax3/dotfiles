@@ -1,0 +1,19 @@
+{ "msg_showcmd", "sl:1", "tick:881", false, { { 0, ":" } } }
+{ "cmdline_show", "sl:1", "tick:882", "mode:c", { { 0, "" } } }
+{ "cmdline_show", "sl:1", "tick:885", "mode:c", { { 0, ":" } } }
+{ "cmdline_show", "sl:1", "tick:887", "mode:c", { { 0, "" } } }
+{ "cmdline_show", "sl:1", "tick:889", "mode:c", { { 0, ":" } } }
+{ "cmdline_show", "sl:1", "tick:891", "mode:c", { { 0, ":!" } } }
+{ "cmdline_show", "sl:1", "tick:893", "mode:c", { { 0, ":!n" } } }
+{ "cmdline_show", "sl:1", "tick:895", "mode:c", { { 0, ":!no" } } }
+{ "cmdline_show", "sl:1", "tick:897", "mode:c", { { 0, ":!n" } } }
+{ "cmdline_show", "sl:1", "tick:899", "mode:c", { { 0, ":!" } } }
+{ "cmdline_show", "sl:1", "tick:901", "mode:c", { { 0, ":" } } }
+{ "cmdline_show", "sl:1", "tick:903", "mode:c", { { 0, ":n" } } }
+{ "cmdline_show", "sl:1", "tick:905", "mode:c", { { 0, ":no" } } }
+{ "cmdline_show", "sl:1", "tick:907", "mode:c", { { 0, ":noi" } } }
+{ "cmdline_show", "sl:1", "tick:909", "mode:c", { { 0, ":Noice" } } }
+{ "cmdline_show", "sl:1", "tick:911", "mode:c", { { 0, ":NoiceAll" } } }
+{ "cmdline_show", "sl:1", "tick:913", "mode:c", { { 0, ":NoiceConfig" } } }
+{ "cmdline_show", "sl:1", "tick:915", "mode:c", { { 0, ":NoiceDebug" } } }
+{ "cmdline_hide", "sl:1", "tick:917", false, 1 }

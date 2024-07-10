@@ -4,9 +4,9 @@ return {
     local conform = require("conform")
     conform.setup({
       formatters_by_ft = {
-        go = {"goimports", "gofumpt"},
-        yaml = {'prettier'},
-        python = { "isort", "black" },
+        go = { "goimports", "gofumpt" },
+        yaml = { 'prettier' },
+        python = { "black" },
         javascript = { "prettier" },
         markdown = { "prettier" },
         json = { "prettier" },

@@ -11,4 +11,5 @@ if not (vim.uv or vim.loop).fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 
-require("lazy").setup("jb.plugins")
+require("lazy").setup({ {import = "jb.plugins"}, {import = "jb.plugins.lsp"}})
+-- require("lazy").setup({ import = "jb.plugins" })
