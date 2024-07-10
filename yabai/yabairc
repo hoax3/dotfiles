@@ -1,0 +1,27 @@
+yabai -m config                                 \
+    layout                      bsp             \
+    window_placement            second_child    \
+    mouse_follows_focus         on              \
+    wndow_shadow                on              \
+    mouse_modifier              ctrl            \
+    mouse_action1               move            \
+    mouse_action2               resize          \
+    top_padding                 20              \
+    bottom_padding              20              \
+    right_padding               20              \
+    left_padding                20              \
+    window_gap                  20              \
+    window_opacity              on              \
+    active_window_opacity       1.0             \
+    normal_window_opacity       0.9             \
+    external_bar                all:40:0        
+
+yabai -m rule --add app="^System Settings$" manage=off
+yabai -m rule --add app="^Calculator$" manage=off
+yabai -m rule --add app="^App Store$" manage=off
+yabai -m rule --add app="^Calendar$" manage=off
+yabai -m rule --add app="^Finder$" manage=off
+yabai -m rule --add app="^DBeaver$" manage=off
+yabai -m rule --add app="^Discord$" manage=off
+
+
